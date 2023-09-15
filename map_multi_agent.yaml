@@ -1,0 +1,17 @@
+map:
+  dimensions: [20, 20]
+  obstacles: {}
+
+agents:
+  - name: agent1
+    start_top_left: [5, 5]
+    start_bottom_right: [7, 3]
+    goal_top_left: [10, 13]
+    goal_bottom_right: [12, 11]
+  - name: agent2
+    start_top_left: [1,9]
+    start_bottom_right: [3, 7]
+    goal_top_left: [10, 9]
+    goal_bottom_right: [12, 7]
+
+dyn_obstacles:  {}

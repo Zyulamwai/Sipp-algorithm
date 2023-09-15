@@ -1,0 +1,15 @@
+agents:
+- name: agent0
+  start_top_left: [1, 1]
+  start_bottom_right: [2, 0]
+  goal_top_left: [5, 5]
+  goal_bottom_right: [6, 4]
+- name: agent1
+  start_top_left: [4, 1]
+  start_bottom_right: [5, 0]
+  goal_top_left: [8, 5]
+  goal_bottom_right: [9, 4]
+map:
+  dimensions: [10, 10]
+  obstacles: []
+dyn_obstacles: {}

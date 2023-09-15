@@ -1,0 +1,30 @@
+map:
+  dimensions: [20, 20]  # 表示地图的尺寸为10x10
+  obstacles:  # 静态障碍物的列表
+    - [4, 4]
+
+agents:
+  - name: agent1
+    start_top_left: [5, 5]  # 代理的起始位置
+    start_bottom_right: [5, 5]  # 代理的底部右侧位置（如果代理大小大于1x1）
+    goal_top_left: [10, 13]  # 代理的目标位置
+    goal_bottom_right: [10, 13]
+
+dyn_obstacles:  # 动态障碍物
+  obs1: 
+    - x: 7
+      y: 6
+      t: 2
+    - x: 7
+      y: 6
+      t: 3
+  obs2: 
+    - x: 8
+      y: 3
+      t: 0
+    - x: 8
+      y: 3
+      t: 1
+    - x: 8
+      y: 3
+      t: 2
